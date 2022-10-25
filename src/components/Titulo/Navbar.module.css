@@ -1,0 +1,30 @@
+@keyframes animacao{
+    0% {color: black;}
+    50% {color: rgb(0, 217, 255);}
+    100% {color: black;}
+}
+
+@keyframes girar{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.navbar{
+    text-align: center;
+}
+
+.navbar h1{
+    animation-name: animacao;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.navbar h1 img{
+    animation: girar linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.geracoes{
+    margin-bottom: 20px;
+}

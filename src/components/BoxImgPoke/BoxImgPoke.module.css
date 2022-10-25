@@ -1,0 +1,14 @@
+.boxImagemPokemon{
+    width: 300px;
+    height: 300px;
+    background-image: url("../../assets/img/fundo-box-imagem.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.boxImagemPokemon img{
+    margin-top: 80px;
+    max-height: 170px;
+}

@@ -1,0 +1,13 @@
+.boxNome{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.boxTipos{
+    display: flex;
+    justify-content: center;
+}
+
+.boxTipos p{
+    margin: 0 15px;
+}

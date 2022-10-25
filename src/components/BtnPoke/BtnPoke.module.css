@@ -1,0 +1,14 @@
+.btnPoke{
+    width: 300px;
+    min-width: 160px;
+    padding: 20px;
+    margin: 0 5px 3px 5px;
+    box-shadow: 3px 2px 5px black;
+    transition: box-shadow 0.4s;
+    border-radius: 15px;
+    border: none;
+}
+
+.btnPoke:hover{
+    box-shadow: 3px 2px 5px rgb(245, 5, 5);
+}

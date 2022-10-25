@@ -1,0 +1,14 @@
+.btnGeracao{
+    font-size: 11px;
+    margin: 3px;
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 3px 2px 5px black;
+    cursor: pointer;
+    transition: box-shadow 0.4s;
+}
+
+.btnGeracao:hover{
+    box-shadow: 3px 2px 5px rgb(245, 5, 5);
+}
